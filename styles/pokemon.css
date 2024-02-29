@@ -1,0 +1,53 @@
+header{
+    margin: 0;
+    background-color: #d10000;
+    width: 100%;
+    height: 100px;
+    display: grid;
+    box-shadow: 0 7px 10px 0 #a1a1a1;
+    transition: all 0.5s ease-in-out 1s;
+}
+
+header nav div{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+img{
+    margin-left: 6vh;
+    width: 100%;
+    height: 100%;
+}
+
+
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+input{
+    background-color: #ffffff;
+    border: none;
+}
+
+footer{
+    margin: 0;
+    background-color: #d10000;
+    width: 100%;
+    height: 170px;
+    display: grid;
+    justify-content: space-around;
+    transition: all 0.5s ease-in-out 1s;
+}
+
+footer button{
+    border: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
