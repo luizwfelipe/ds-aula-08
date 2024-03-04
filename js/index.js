@@ -4,7 +4,7 @@ function logar(){
 
     if (login == 'admin' && senha == 'admin') {
         alert('Login efetuado com sucesso!');
-        location.href = "./pages/home.html";
+        location.href = "./pages/pokemon.html";
     } else {
         alert('Usúario ou senha incorreto')
     }
