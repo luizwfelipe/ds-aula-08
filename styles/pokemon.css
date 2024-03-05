@@ -59,12 +59,17 @@ nav{
 }
 
 footer button{
-    margin-top: 100vh;
+    margin-top: 50vh;
     color: #ffffff;
     background-color: #7e0303;
     width: 100%;
     font-size: large;
     font-weight: 400;
     padding: 1vh;
+    border: none;
 }
 
+
+@media (min-width: 2560px){
+    
+}

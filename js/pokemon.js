@@ -17,5 +17,11 @@ btnPesquisa.addEventListener("click", function(){
         document.getElementById('idPokemon').innerHTML = data['id'];
         let img = data['sprites']['front_default'];
         document.getElementById('pic').setAttribute('src', img);
+        let weight = data['weight'];
+        let pesoFinal = weight/10;
+        document.getElementById('peso').innerHTML = pesoFinal;
+        let height = data['height'];
+        let alturaFinal = height/10;
+        document.getElementById('altura').innerHTML = alturaFinal;
     });
 });
