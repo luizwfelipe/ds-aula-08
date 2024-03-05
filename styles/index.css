@@ -1,0 +1,91 @@
+body{
+    background-color: #272727;
+}
+
+main {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #272727;
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    margin: 200px auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+        
+}
+input{
+    background-color: #414141;
+    width: 70%;
+    padding: 8px;
+    margin-right: 5px;
+    margin: 10px auto;
+    height: 30px;
+    border: none;
+    color: #c5c5c5;
+}
+
+.botao{
+    border: none;
+    padding: 8px;
+    width: 80%;
+    background-color: #910101;
+    color: #f4f4f4;
+}
+
+h1, p{
+    color: #c5c5c5;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 425px) and (max-width: 768px){
+    .botao{
+        border: none;
+        padding: 8px;
+        width: 70%;
+        background-color: #9a00b9;
+        color: #f4f4f4;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    .botao{
+        border: none;
+        padding: 8px;
+        width: 70%;
+        background-color: #d9ff00;
+        color: #000000;
+    }
+}
+
+@media (min-width: 1025px){
+    input{
+        background-color: #414141;
+        width: 70%;
+        padding: 8px;
+        margin-right: 5px;
+        margin: 10px auto;
+        height: 30px;
+        border: none;
+        color: #c5c5c5;
+    }
+    
+    .botao{
+        border: none;
+        padding: 8px;
+        width: 70%;
+        background-color: #000544;
+        color: #f4f4f4;
+    }
+}
